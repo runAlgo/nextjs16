@@ -1,8 +1,13 @@
 import React from 'react'
+import Hello from './components/Hello'
 
 const Home = () => {
+  console.log('What type of a comonent am I?')
   return (
-    <div>Home</div>
+    <main>
+      <div>Welcome to NextJS Course</div>
+      <Hello />
+    </main>
   )
 }
 
